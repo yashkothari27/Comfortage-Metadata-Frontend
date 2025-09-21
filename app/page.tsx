@@ -162,12 +162,12 @@ export default function MetadataStore() {
       <div className="border-b bg-card/50 backdrop-blur-sm">
         <div className="container mx-auto px-6 py-8">
           <div className="flex items-center gap-3">
-            <div className="relative flex h-12 w-12 items-center justify-center">
+            <div className="relative flex h-14 w-56 sm:h-16 sm:w-64 lg:h-20 lg:w-72 items-center justify-center">
               <Image
                 src="/comfortage-logo.svg"
                 alt="Comfortage Logo"
                 fill
-                sizes="48px"
+                sizes="(max-width: 640px) 224px, (max-width: 1024px) 256px, 288px"
                 priority
                 className="object-contain"
               />
